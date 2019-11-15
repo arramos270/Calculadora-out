@@ -1,0 +1,47 @@
+? git clone https://github.com/arramos270/Calculadora-out.git
+Cloning into 'Calculadora-out'...
+warning: You appear to have cloned an empty repository.
+
+? cd calculadora-out
+
+? touch README.md
+
+? notepad README.md
+
+? touch .gitignore
+
+? notepad .gitignore
+
+? git add .
+
+? git commit -m "subiendo el README y el .gitignore"
+[master (root-commit) 7e6b6f6] subiendo el README y el .gitignore
+ 2 files changed, 114 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+
+? git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 846 bytes | 846.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/arramos270/Calculadora-out.git
+ * [new branch]      master -> master
+
+? notepad README.md
+
+? git add .
+
+? git commit -m "Editado el README"
+
+? git push
+To https://github.com/arramos270/Calculadora-out.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/arramos270/Calculadora-out.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
